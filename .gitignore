@@ -1,0 +1,120 @@
+### 通用操作系统文件 ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### 编辑器/IDE 文件 ###
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+### Node.js/Vue 相关 ###
+# 依赖目录
+node_modules/
+
+# 构建输出
+dist/
+build/
+out/
+
+# 缓存文件
+.nuxt/
+.cache/
+*.log
+logs/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 包管理器文件
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 测试相关
+coverage/
+.nyc_output/
+*.lcov
+
+### .NET 相关 ###
+# 编译输出
+bin/
+obj/
+out/
+publish/
+
+# 用户特定文件
+*.userprefs
+
+# 包管理
+packages/
+
+# 测试结果
+TestResults/
+*.trx
+
+# ReSharper
+_ReSharper.*
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.VC.opendb
+*.opendb
+*.dbmdl
+
+# Azure Functions
+func/
+.local.settings.json
+
+# 项目配置
+appsettings.Development.json
+appsettings.Local.json
+appsettings.private.json
+
+# ### SQLite 数据库 ###
+# *.db
+# *.db-shm
+# *.db-wal
+
+### Vue CLI 生成文件 ###
+# 配置文件
+vue.config.js
+jsconfig.json
+tsconfig.json
+
+# 打包分析报告
+report.html
+
+# 缓存
+.eslintcache
+
+### 其他 ###
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 临时文件
+*.tmp
+*.temp
+
+# 调试文件
+*.pdb
+*.ilk
+*.dll
+*.exe
